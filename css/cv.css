@@ -49,6 +49,12 @@ nav {
   background-color: rgba(0, 0, 0, 0)!important;
 }
 
+.mu {
+  height: 5em;
+  width: auto;
+  float: inline-end;
+}
+
 ul {
   list-style: inside;
   line-height: 2.5em;
