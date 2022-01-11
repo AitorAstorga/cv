@@ -86,6 +86,11 @@ ul {
   background-color: var(--streamYellow);
 }
 
+.undecoratedLink {
+  text-decoration: none;
+  color: black;
+}
+
 #inspiration {
   color: var(--lightTeal);
 }
