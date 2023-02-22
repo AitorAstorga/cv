@@ -1,0 +1,32 @@
+[
+    {
+        "image": "../img/logoC.png",
+        "title": "C",
+        "text": "Learnt in 2019.",
+        "linkText": "Example project"
+    },
+    {
+        "image": "../img/logoJava.png",
+        "title": "Java",
+        "text": "Learnt in 2020.",
+        "linkText": "Example project"
+    },
+    {
+        "image": "../img/logoPython.png",
+        "title": "Python",
+        "text": "Learnt in 2021.",
+        "linkText": "Example project"
+    },
+    {
+        "image": "../img/logoJS.png",
+        "title": "JavaScript",
+        "text": "Learnt in 2022.",
+        "linkText": "Example project"
+    },
+    {
+        "image": "../img/logoHTMLCSS.png",
+        "title": "HTML/CSS",
+        "text": "Learnt in 2022.",
+        "linkText": "Example project"
+    }
+]
