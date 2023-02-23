@@ -5,26 +5,22 @@
       {
         "image": "../img/logoC.png",
         "title": "C",
-        "text": "Learnt in 2019.",
-        "linkText": "Example project"
+        "text": "Learnt in 2019. <a href="#" class="card-link">Example project</a>"
       },
       {
         "image": "../img/logoJava.png",
         "title": "Java",
-        "text": "Learnt in 2019.",
-        "linkText": "Example project"
+        "text": "Learnt in 2019."
       },
       {
         "image": "../img/logoPython.png",
         "title": "Python",
-        "text": "Learnt in 2020.",
-        "linkText": "Example project"
+        "text": "Learnt in 2020."
       },
       {
         "image": "../img/logoJS.png",
         "title": "JavaScript",
-        "text": "Learnt in 2021.",
-        "linkText": "Example project"
+        "text": "Learnt in 2021."
       }
     ]
   },
@@ -34,26 +30,47 @@
       {
         "image": "../img/logoHTML.png",
         "title": "HTML",
-        "text": "Learnt in 2019.",
-        "linkText": "Example project"
+        "text": "Learnt in 2019."
       },
       {
         "image": "../img/logoCSS.png",
         "title": "CSS",
-        "text": "Learnt in 2019.",
-        "linkText": "Example project"
+        "text": "Learnt in 2019."
       },
       {
         "image": "../img/logoXML.png",
         "title": "XML",
-        "text": "Learnt in 2019.",
-        "linkText": "Example project"
+        "text": "Learnt in 2019."
       },
       {
         "image": "../img/logoJSON.png",
         "title": "JSON",
-        "text": "Learnt in 2019.",
-        "linkText": "Example project"
+        "text": "Learnt in 2019."
+      }
+    ]
+  },
+  {
+    "sectionId": "skills-database",
+    "components": [
+      {
+        "image": "../img/logoMySQL.png",
+        "title": "MySQL",
+        "text": "Learnt in 2019."
+      },
+      {
+        "image": "../img/logoPostgreSQL.png",
+        "title": "PostgreSQL",
+        "text": "Learnt in 2019."
+      },
+      {
+        "image": "../img/logoMariaDB.png",
+        "title": "MariaDB",
+        "text": "Learnt in 2019."
+      },
+      {
+        "image": "../img/logoMSSQL.png",
+        "title": "Microsoft SQL Server",
+        "text": "Learnt in 2019."
       }
     ]
   }
