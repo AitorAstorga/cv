@@ -10,17 +10,17 @@
       {
         "image": "../img/logoJava.png",
         "title": "Java",
-        "data-text_base": "java"
+        "data_text_base": "java"
       },
       {
         "image": "../img/logoPython.png",
         "title": "Python",
-        "data-text_base": "python"
+        "data_text_base": "python"
       },
       {
         "image": "../img/logoJS.png",
         "title": "JavaScript",
-        "data-text_base": "javascript"
+        "data_text_base": "javascript"
       }
     ]
   },
@@ -30,22 +30,22 @@
       {
         "image": "../img/logoHTML.png",
         "title": "HTML",
-        "data-text_base": "html"
+        "data_text_base": "html"
       },
       {
         "image": "../img/logoCSS.png",
         "title": "CSS",
-        "data-text_base": "css"
+        "data_text_base": "css"
       },
       {
         "image": "../img/logoXML.png",
         "title": "XML",
-        "data-text_base": "xml"
+        "data_text_base": "xml"
       },
       {
         "image": "../img/logoJSON.png",
         "title": "JSON",
-        "data-text_base": "json"
+        "data_text_base": "json"
       }
     ]
   },
@@ -55,22 +55,22 @@
       {
         "image": "../img/logoMySQL.png",
         "title": "MySQL",
-        "data-text_base": "mysql"
+        "data_text_base": "mysql"
       },
       {
         "image": "../img/logoPostgreSQL.png",
         "title": "PostgreSQL",
-        "data-text_base": "postgresql"
+        "data_text_base": "postgresql"
       },
       {
         "image": "../img/logoMariaDB.png",
         "title": "MariaDB",
-        "data-text_base": "mariadb"
+        "data_text_base": "mariadb"
       },
       {
         "image": "../img/logoMSSQL.png",
         "title": "Microsoft SQL Server",
-        "data-text_base": "mssql"
+        "data_text_base": "mssql"
       }
     ]
   }
