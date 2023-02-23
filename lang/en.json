@@ -65,5 +65,13 @@
     "mysql_workbench_b": "",
     "heidisql_b": "",
     "dbeaver_b": "",
-    "sql_server_management_studio_b": ""
+    "sql_server_management_studio_b": "",
+    
+    "section-programming": "Programming Languages",
+    "section-markup": "Markup Languages and Data Formats",
+    "section-dbengines": "Database Engines",
+    "section-ides": "Development Enviroments",
+    "section-management": "Management Software",
+    "section-control": "Version Control Software",
+    "section-dbsoftware": "DB management Software"
 }
