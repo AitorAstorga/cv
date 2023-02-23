@@ -18,6 +18,11 @@
         "data_text_base": "java"
       },
       {
+        "image": "../img/logoVBNET.png",
+        "title": "VB.NET",
+        "data_text_base": "vbnet"
+      },
+      {
         "image": "../img/logoAssembly.png",
         "title": "Assembly",
         "data_text_base": "assembly"
@@ -81,6 +86,96 @@
         "image": "../img/logoMSSQL.png",
         "title": "Microsoft SQL Server",
         "data_text_base": "mssql"
+      }
+    ]
+  },
+  {
+    "sectionId": "skills-development-environments",
+    "components": [
+      {
+        "image": "../img/logoVisualStudio.png",
+        "title": "Visual Studio",
+        "data_text_base": "visual_studio"
+      },
+      {
+        "image": "../img/logoVSCode.png",
+        "title": "Visual Studio Code",
+        "data_text_base": "visual_studio_code"
+      },
+      {
+        "image": "../img/logoEclipse.png",
+        "title": "Eclipse",
+        "data_text_base": "eclipse"
+      },
+      {
+        "image": "../img/logoAndroidStudio.png",
+        "title": "Android Studio",
+        "data_text_base": "android_studio"
+      }
+    ]
+  },
+  {
+    "sectionId": "skills-management-software",
+    "components": [
+      {
+        "image": "../img/logoJira.png",
+        "title": "Jira",
+        "data_text_base": "jira"
+      },
+      {
+        "image": "../img/logoTrello.png",
+        "title": "Trello",
+        "data_text_base": "trello"
+      },
+      {
+        "image": "../img/logoKixDesk.png",
+        "title": "Kix Desk",
+        "data_text_base": "kix_desk"
+      }
+    ]
+  },
+  {
+    "sectionId": "skills-version-control-software",
+    "components": [
+      {
+        "image": "../img/logoGitHub.png",
+        "title": "GitHub",
+        "data_text_base": "github"
+      },
+      {
+        "image": "../img/logoGitLab.png",
+        "title": "GitLab",
+        "data_text_base": "gitlab"
+      },
+      {
+        "image": "../img/logoAzureDevOps.png",
+        "title": "Azure DevOps Server",
+        "data_text_base": "azure_devops_server"
+      }
+    ]
+  },
+  {
+    "sectionId": "skills-db-management-software",
+    "components": [
+      {
+        "image": "../img/logoMySQLWorkbench.png",
+        "title": "MySQL Workbench",
+        "data_text_base": "mysql_workbench"
+      },
+      {
+        "image": "../img/logoHeidiSQL.png",
+        "title": "HeidiSQL",
+        "data_text_base": "heidisql"
+      },
+      {
+        "image": "../img/logoDBeaver.png",
+        "title": "DBeaver",
+        "data_text_base": "dbeaver"
+      },
+      {
+        "image": "../img/logoSSMS.png",
+        "title": "SQL Server Management Studio",
+        "data_text_base": "sql_server_management_studio"
       }
     ]
   }
