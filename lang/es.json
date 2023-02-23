@@ -66,4 +66,12 @@
     "heidisql_b": "",
     "dbeaver_b": "",
     "sql_server_management_studio_b": ""
+        
+    "section-programming": "Lenguajes de Programación",
+    "section-markup": "Lenguajes de Marcado y Formatos de Datos",
+    "section-dbengines": "Motores de Base de Datos",
+    "section-ides": "Entornos de Desarrollo",
+    "section-management": "Software de Gestión",
+    "section-control": "Software de Control de Versiones",
+    "section-dbsoftware": "Software de Gestión de Bases de Datos"
 }
