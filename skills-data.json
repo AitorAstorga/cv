@@ -1,32 +1,60 @@
 [
-    {
+  {
+    "sectionId": "skills-programming",
+    "components": [
+      {
         "image": "../img/logoC.png",
         "title": "C",
         "text": "Learnt in 2019.",
         "linkText": "Example project"
-    },
-    {
+      },
+      {
         "image": "../img/logoJava.png",
         "title": "Java",
-        "text": "Learnt in 2020.",
+        "text": "Learnt in 2019.",
         "linkText": "Example project"
-    },
-    {
+      },
+      {
         "image": "../img/logoPython.png",
         "title": "Python",
+        "text": "Learnt in 2020.",
+        "linkText": "Example project"
+      },
+      {
+        "image": "../img/logoJS.png",
+        "title": "JavaScript",
         "text": "Learnt in 2021.",
         "linkText": "Example project"
-    },
-    {
-        "image": "../img/logoJs.png",
-        "title": "JavaScript",
-        "text": "Learnt in 2022.",
+      }
+    ]
+  },
+  {
+    "sectionId": "skills-markup",
+    "components": [
+      {
+        "image": "../img/logoHTML.png",
+        "title": "HTML",
+        "text": "Learnt in 2019.",
         "linkText": "Example project"
-    },
-    {
-        "image": "../img/logoHtml.png",
-        "title": "HTML/CSS",
-        "text": "Learnt in 2022.",
+      },
+      {
+        "image": "../img/logoCSS.png",
+        "title": "CSS",
+        "text": "Learnt in 2019.",
         "linkText": "Example project"
-    }
+      },
+      {
+        "image": "../img/logoXML.png",
+        "title": "XML",
+        "text": "Learnt in 2019.",
+        "linkText": "Example project"
+      },
+      {
+        "image": "../img/logoJSON.png",
+        "title": "JSON",
+        "text": "Learnt in 2019.",
+        "linkText": "Example project"
+      }
+    ]
+  }
 ]
