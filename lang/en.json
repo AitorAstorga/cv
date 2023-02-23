@@ -18,10 +18,15 @@
     "address_b": "Reyes Católicos 10, 5ºD, Vitoria-Gasteiz 01002",
     "number_t": "Number",
     "mail_t": "Mail",
-
+    
+    "experience_t": "Experience",
+    "experience_1_title": "Application Developer",
+    "experience_1_company": "AEG Power Solutions",
+    "experience_1_b": "feb. 2022 - present",
+    
     "skills": "Skills",
 
     "additional_t": "Additional Information",
-    "additional_b1": "I practise fencing since 2010, and from 2017 to 2019 was a coach in the club CEGA.",
+    "additional_b1": "I practise fencing since 2010, and from 2017 to 2019 was a coach in the club CEGA. I currently hold a position as Secretary.",
     "additional_b2": "Since october 2020 I have the responsibility of presiding over the Alava Fencing Federation."
 }
