@@ -47,5 +47,23 @@
     "mysql_b": "",
     "postgresql_b": "",
     "mariadb_b": "",
-    "mssql_b": ""
+    "mssql_b": "",
+    
+    "visual_studio_b": "",
+    "visual_studio_code_b": "",
+    "eclipse_b": "",
+    "android_studio_b": "",
+    
+    "jira_b": "",
+    "trello_b": "",
+    "kix_desk_b": "",
+    
+    "github_b": "",
+    "gitlab_b": "",
+    "azure_devops_server_b": "",
+    
+    "mysql_workbench_b": "",
+    "heidisql_b": "",
+    "dbeaver_b": "",
+    "sql_server_management_studio": ""
 }
