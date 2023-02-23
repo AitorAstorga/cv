@@ -5,12 +5,12 @@
       {
         "image": "../img/logoC.png",
         "title": "C",
-        "data-text_base": "c"
+        "data_text_base": "c"
       },
       {
         "image": "../img/logoCsharp.png",
         "title": "C#",
-        "data-text_base": "csharp"
+        "data_text_base": "csharp"
       },
       {
         "image": "../img/logoJava.png",
