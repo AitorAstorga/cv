@@ -8,9 +8,19 @@
         "data-text_base": "c"
       },
       {
+        "image": "../img/logoC#.png",
+        "title": "C#",
+        "data-text_base": "csharp"
+      },
+      {
         "image": "../img/logoJava.png",
         "title": "Java",
         "data_text_base": "java"
+      },
+      {
+        "image": "../img/logoAssembly.png",
+        "title": "Assembly",
+        "data_text_base": "assembly"
       },
       {
         "image": "../img/logoPython.png",
