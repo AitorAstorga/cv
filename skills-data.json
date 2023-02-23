@@ -5,22 +5,22 @@
       {
         "image": "../img/logoC.png",
         "title": "C",
-        "text": "Learnt in 2019. <a href="#" class="card-link">Example project</a>"
+        "data-text_base": "c"
       },
       {
         "image": "../img/logoJava.png",
         "title": "Java",
-        "text": "Learnt in 2019."
+        "data-text_base": "java"
       },
       {
         "image": "../img/logoPython.png",
         "title": "Python",
-        "text": "Learnt in 2020."
+        "data-text_base": "python"
       },
       {
         "image": "../img/logoJS.png",
         "title": "JavaScript",
-        "text": "Learnt in 2021."
+        "data-text_base": "javascript"
       }
     ]
   },
@@ -30,22 +30,22 @@
       {
         "image": "../img/logoHTML.png",
         "title": "HTML",
-        "text": "Learnt in 2019."
+        "data-text_base": "html"
       },
       {
         "image": "../img/logoCSS.png",
         "title": "CSS",
-        "text": "Learnt in 2019."
+        "data-text_base": "css"
       },
       {
         "image": "../img/logoXML.png",
         "title": "XML",
-        "text": "Learnt in 2019."
+        "data-text_base": "xml"
       },
       {
         "image": "../img/logoJSON.png",
         "title": "JSON",
-        "text": "Learnt in 2019."
+        "data-text_base": "json"
       }
     ]
   },
@@ -55,22 +55,22 @@
       {
         "image": "../img/logoMySQL.png",
         "title": "MySQL",
-        "text": "Learnt in 2019."
+        "data-text_base": "mysql"
       },
       {
         "image": "../img/logoPostgreSQL.png",
         "title": "PostgreSQL",
-        "text": "Learnt in 2019."
+        "data-text_base": "postgresql"
       },
       {
         "image": "../img/logoMariaDB.png",
         "title": "MariaDB",
-        "text": "Learnt in 2019."
+        "data-text_base": "mariadb"
       },
       {
         "image": "../img/logoMSSQL.png",
         "title": "Microsoft SQL Server",
-        "text": "Learnt in 2019."
+        "data-text_base": "mssql"
       }
     ]
   }
