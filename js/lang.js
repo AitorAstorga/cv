@@ -16,6 +16,9 @@ function updateText(language) {
                 // Update the text of the relevant elements
                 elements.text(text[key]);
             });
+            
+            // Update the selected language button's style
+            updateSelectedLanguageButton(language);
         })
         .catch(error => console.error(error));
 }
@@ -24,3 +27,15 @@ function updateText(language) {
 $(document).ready(function () {
     updateText('en');
 });
+
+function updateSelectedLanguageButton(language) {
+    // Remove the "langSelected" class from all language buttons
+    const buttons = document.querySelectorAll('.langOption');
+    buttons.forEach(button => {
+        button.classList.remove('langSelected');
+    });
+
+    // Add the "langSelected" class to the selected language button
+    const selectedButton = document.querySelector(`.langOption[data-text=${language}]`);
+    selectedButton.classList.add('langSelected');
+}
