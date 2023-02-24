@@ -32,10 +32,11 @@ function updateSelectedLanguageButton(language) {
     // Remove the "langSelected" class from all language buttons
     const buttons = document.querySelectorAll('.langOption');
     buttons.forEach(button => {
-        button.classList.remove('langSelected');
+      button.classList.remove('langSelected');
     });
-
+  
     // Add the "langSelected" class to the selected language button
-    const selectedButton = document.querySelector(`.langOption[data-text=${language}]`);
+    const selectedButton = document.querySelector(`.langOption.${language}`);
     selectedButton.classList.add('langSelected');
-}
+  }
+  
