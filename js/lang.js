@@ -36,7 +36,7 @@ function updateSelectedLanguageButton(language) {
     });
   
     // Add the "langSelected" class to the selected language button
-    const selectedButton = document.querySelector(`.langOption.${language}`);
+    const selectedButton = document.querySelector(`${language}`);
     selectedButton.classList.add('langSelected');
   }
   
