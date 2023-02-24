@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Aitor Astorga</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../css/cv.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/lang.js"></script>
+</head>
+
+<body>
+  <nav class="my-nav">
+    <button class="my-button langOption undecoratedLink" onclick="updateText('eu')">
+      <img class="my-flag" src="../img/basqueFlag.png" alt="Basque flag">
+      <p data-text="basque"></p>
+    </button>
+    <button class="my-button langOption undecoratedLink" onclick="updateText('es')">
+      <img class="my-flag" src="../img/spanishFlag.png" alt="Spanish flag">
+      <p data-text="spanish"></p>
+    </button>
+    <button class="my-button langOption undecoratedLink" onclick="updateText('en')">
+      <img class="my-flag" src="../img/englishFlag.png" alt="English flag">
+      <p data-text="english"></p>
+    </button>
+    <p id="inspiration" data-text="inspiration"></p>
+  </nav>
+
+  <div class="my-main">
+    <header class="my-header">
+      <img class="mu" src="../img/Logo ENG_Horizontala_Txuria.png" alt="MU logo">
+      <h1 data-text="name"></h1>
+      <h2 data-text="degree"></h2>
+    </header>
+
+    <div class="my-grid">
+      <div class="my-card" id="goals">
+        <h3 data-text="goals_t"></h3>
+        <p data-text="goals_b"></p>
+      </div>
+      <div class="my-card" id="languages">
+        <h3 data-text="languages_t"></h3>
+        <ul>
+          <li class="imgLi">
+            <div class="imgDiv">
+              <img class="my-flag" src="../img/basqueFlag.png" alt="Basque flag">
+              <p data-text="basque"></p>
+            </div>
+          </li>
+          <div class="progressBar">
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+          </div>
+          <li class="imgLi">
+            <div class="imgDiv">
+              <img class="my-flag" src="../img/spanishFlag.png" alt="Spanish flag">
+              <p data-text="spanish"></p>
+            </div>
+          </li>
+          <div class="progressBar">
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+          </div>
+          <li class="imgLi">
+            <div class="imgDiv">
+              <img class="my-flag" src="../img/englishFlag.png" alt="English flag">
+              <p data-text="english"></p>
+            </div>
+          </li>
+          <div class="progressBar">
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+            <div class="progressBlock"></div>
+          </div>
+        </ul>
+      </div>
+      <div class="my-card" id="contact">
+        <h3 data-text="contact_t">Contact Information</h3>
+        <div class="row">
+          <p class="col-lg-2" data-text="address_t">Address: Reyes Católicos 10, 5ºD, Vitoria-Gasteiz 01002</p>
+          <p class="col" data-text="address_b"></p>
+        </div>
+        <div class="row">
+          <p class="col-lg-2" data-text="number_t">Number</p>
+          <p class="col"><a href="tel:+34685641664">+34 685 64 16 64</a></p>
+        </div>
+        <div class="row">
+          <p class="col-lg-2" data-text="mail_t">Mail</p>
+          <p class="col"><a href="mailto:a.astorga.sdv@gmail.com">a.astorga.sdv@gmail.com</a></p>
+        </div>
+        <div class="row">
+          <p class="col-lg-2">LinkedIn</p>
+          <p class="col"><img class="my-logo" src="../img/logoLinkedIn.png" alt="LinkedIn logo"> <a
+              href="https://www.linkedin.com/in/aitor-astorga-saez-de-vicuña">www.linkedin.com/in/aitor-astorga-saez-de-vicuña</a>
+          </p>
+        </div>
+        <div class="row">
+          <p class="col-lg-2">GitHub</p>
+          <p class="col"><img class="my-logo" src="../img/logoGitHub.png" alt="GitHub logo"> <a
+              href="https://github.com/AitorAstorga">github.com/AitorAstorga</a></p>
+        </div>
+        <div class="row">
+          <p class="col-lg-2">GitLab</p>
+          <p class="col"><img class="my-logo" src="../img/logoGitLab.png" alt="GitLab logo"><a
+              href="https://gitlab.com/a.astorga.sdv">gitlab.com/a.astorga.sdv</a></p>
+        </div>
+      </div>
+      <div class="my-card" id="experience">
+        <h3 data-text="experience_t">Experience</h3>
+        <h5 data-text="experience_1_title">Application Developer</h5>
+        <div class="imgDiv">
+          <a class="my-logo" href="https://www.linkedin.com/company/aeg-power-solutions/mycompany/" target="_blank">
+            <img class="my-logo linkImg" src="../img/logoAEG.png" alt="AEG logo">
+          </a>
+          <div>
+            <b>
+              <p data-text="experience_1_company">AEG Power Solutions</p>
+            </b>
+            <p data-text="experience_1_b">feb. 2022 - present</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="my-card" id="competences">
+        <button class="my-button langOption undecoratedLink" onclick="window.open('https://aitorastorga.github.io/cv/html/skills.html')">
+          <h3 data-text="skills" class="my-color-black">Skills</h3>
+        </button>
+        <div class="row">
+          <ul class="col">
+            <li class="imgLi">
+              <div class="imgDiv">
+                <img class="my-logo" src="../img/logoC.png" alt="C logo">
+                <p>C</p>
+              </div>
+            </li>
+            <li class="imgLi">
+              <div class="imgDiv">
+                <img class="my-logo" src="../img/logoJava.png" alt="Java logo">
+                <p>Java</p>
+              </div>
+            </li>
+            <li class="imgLi">
+              <div class="imgDiv">
+                <img class="my-logo" src="../img/logoMySQL.png" alt="SQL logo">
+                <p>SQL</p>
+              </div>
+            </li class="imgLi">
+          </ul>
+          <ul class="col">
+            <li class="imgLi">
+              <div class="imgDiv">
+                <img class="my-logo" src="../img/logoJS.png" alt="JavaScript logo">
+                <p>JavaScript</p>
+              </div>
+            </li class="imgLi">
+            <li class="imgLi">
+              <div class="imgDiv">
+                <img class="my-logo" src="../img/logoHTML.png" alt="HTML5 logo">
+                <p>HTML5</p>
+              </div>
+            </li>
+            <li class="imgLi">
+              <div class="imgDiv">
+                <img class="my-logo" src="../img/logoCSS.png" alt="CSS logo">
+                <p>CSS</p>
+              </div>
+            </li>
+          </ul>
+          <ul class="col">
+            <li class="imgLi">
+              <div class="imgDiv">
+                <img class="my-logo" src="../img/logoAndroid.svg" alt="Android logo">
+                <p>Android</p>
+              </div>
+            </li>
+            <li class="imgLi">
+              <div class="imgDiv">
+                <img class="my-logo" src="../img/logoAssembly.png" alt="Assembly logo">
+                <p>Assembly</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="my-card" id="other">
+        <h3 data-text="additional_t"></h3>
+        <div class="imgDiv">
+          <p data-text="additional_b1"></p>
+          <a class="my-logo" href="https://cegaesgrima.wordpress.com/" target="_blank">
+            <img class="my-logo linkImg" src="../img/logoCEGA.png" alt="CEGA logo">
+          </a>
+        </div>
+        <div class="imgDiv">
+          <a class="my-logo" href="https://alavaesgrima.wordpress.com/" target="_blank">
+            <img class="my-logo linkImg" src="../img/logoFAE.png" alt="FAE logo">
+          </a>
+          <p data-text="additional_b2"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
