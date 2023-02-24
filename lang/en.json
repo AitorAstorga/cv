@@ -36,8 +36,8 @@
     "vbnet_b": "Extensive knowledge.",
     
     "python_b": "Basic Knowledge.",
-    "assembly_b": "Basic Knowledge",
-    "javascript_b": "Basic Knowledge",
+    "assembly_b": "Basic Knowledge.",
+    "javascript_b": "Basic Knowledge.",
     
     "html_b": "",
     "css_b": "",
@@ -73,5 +73,7 @@
     "section-ides": "Development Enviroments",
     "section-management": "Management Software",
     "section-control": "Version Control Software",
-    "section-dbsoftware": "Database management Software"
+    "section-dbsoftware": "Database Management Software",
+
+    "main": "Main page"
 }

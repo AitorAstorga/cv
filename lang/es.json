@@ -73,5 +73,7 @@
     "section-ides": "Entornos de Desarrollo",
     "section-management": "Software de Gestión",
     "section-control": "Software de Control de Versiones",
-    "section-dbsoftware": "Software de Gestión de Bases de Datos"
+    "section-dbsoftware": "Software de Gestión de Bases de Datos",
+
+    "main": "Página pricipal"
 }
