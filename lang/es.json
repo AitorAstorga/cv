@@ -34,15 +34,22 @@
     "csharp_b": "Amplio conocimiento.",
     "java_b": "Amplio conocimiento.",
     "vbnet_b": "Amplio conocimiento.",
-    
     "python_b": "Conocimiento básico.",
     "assembly_b": "Conocimiento básico.",
     "javascript_b": "Conocimiento básico.",
     
+    "bootstrap_b": "",
     "html_b": "",
     "css_b": "",
+    "sass_b": "",
     "xml_b": "",
     "json_b": "",
+
+    "spring_b": "",
+    "nginx_b": "",
+
+    "android_b": "",
+    "ionic_b": "",
     
     "mysql_b": "",
     "postgresql_b": "",
@@ -53,19 +60,21 @@
     "visual_studio_code_b": "",
     "eclipse_b": "",
     "android_studio_b": "",
-    
-    "jira_b": "",
-    "trello_b": "",
-    "kix_desk_b": "",
-    
+
+    "jenkins_b": "",
+    "gcloud_b": "",
+    "azure_devops_server_b": "",
     "github_b": "",
     "gitlab_b": "",
-    "azure_devops_server_b": "",
     
     "mysql_workbench_b": "",
     "heidisql_b": "",
     "dbeaver_b": "",
     "sql_server_management_studio_b": "",
+
+    "jira_b": "",
+    "trello_b": "",
+    "kix_desk_b": "",
         
     "section-programming": "Lenguajes de Programación",
     "section-frontend": "Desarrollo Frontend",
