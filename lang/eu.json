@@ -68,11 +68,13 @@
     "sql_server_management_studio_b": "",
     
     "section-programming": "Programazio Lengoaiak",
-    "section-markup": "Markatze-lengoaiak eta Datu-formatuak",
+    "section-frontend": "Frontend Garapena",
+    "section-backend": "Backend Garapena",
+    "section-mobile": "Mugikorrentzako aplikazioen garapena",
     "section-dbengines": "Datu-base Motorrak",
     "section-ides": "Garapen-inguruneak",
     "section-management": "Kudeaketa Softwarea",
-    "section-control": "Bertsioa Kontrolatzeko Softwarea",
+    "section-devops": "Devops",
     "section-dbsoftware": "Datu-baseak Kudeatzeko Softwarea",
 
     "main": "Main page"

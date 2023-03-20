@@ -3,17 +3,17 @@
     "sectionId": "skills-programming",
     "components": [
       {
-        "image": "../img/logoC.png",
+        "image": "../img/logoC.svg",
         "title": "C",
         "data_text_base": "c"
       },
       {
-        "image": "../img/logoCsharp.png",
+        "image": "../img/logoCsharp.svg",
         "title": "C#",
         "data_text_base": "csharp"
       },
       {
-        "image": "../img/logoJava.png",
+        "image": "../img/logoJava.svg",
         "title": "Java",
         "data_text_base": "java"
       },
@@ -28,29 +28,40 @@
         "data_text_base": "assembly"
       },
       {
-        "image": "../img/logoPython.png",
-        "title": "Python",
-        "data_text_base": "python"
-      },
-      {
-        "image": "../img/logoJS.png",
+        "image": "../img/logoJS.svg",
         "title": "JavaScript",
         "data_text_base": "javascript"
+      },
+      {
+        "image": "../img/logoPython.svg",
+        "title": "Python",
+        "data_text_base": "python"
       }
+      
     ]
   },
   {
-    "sectionId": "skills-markup",
+    "sectionId": "skills-frontend",
     "components": [
       {
-        "image": "../img/logoHTML.png",
+        "image": "../img/logoBootstrap.svg",
+        "title": "Bootstrap",
+        "data_text_base": "bootstrap"
+      },
+      {
+        "image": "../img/logoHTML.svg",
         "title": "HTML",
         "data_text_base": "html"
       },
       {
-        "image": "../img/logoCSS.png",
+        "image": "../img/logoCSS.svg",
         "title": "CSS",
         "data_text_base": "css"
+      },
+      {
+        "image": "../img/logoSass.svg",
+        "title": "Sass",
+        "data_text_base": "sass"
       },
       {
         "image": "../img/logoXML.png",
@@ -65,25 +76,55 @@
     ]
   },
   {
+    "sectionId": "skills-backend",
+    "components": [
+      {
+        "image": "../img/logoSpring.svg",
+        "title": "Spring",
+        "data_text_base": "spring"
+      },
+      {
+        "image": "../img/logoNGINX.svg",
+        "title": "NGINX",
+        "data_text_base": "nginx"
+      }
+    ]
+  },
+  {
+    "sectionId": "skills-mobile",
+    "components": [
+      {
+        "image": "../img/logoAndroid.svg",
+        "title": "Android",
+        "data_text_base": "android"
+      },
+      {
+        "image": "../img/logoIonic.svg",
+        "title": "ionic framework",
+        "data_text_base": "ionic"
+      }
+    ]
+  },
+  {
     "sectionId": "skills-database",
     "components": [
       {
-        "image": "../img/logoMySQL.png",
+        "image": "../img/logoMySQL.svg",
         "title": "MySQL",
         "data_text_base": "mysql"
       },
       {
-        "image": "../img/logoPostgreSQL.png",
+        "image": "../img/logoPostgreSQL.svg",
         "title": "PostgreSQL",
         "data_text_base": "postgresql"
       },
       {
-        "image": "../img/logoMariaDB.png",
+        "image": "../img/logoMariaDB.svg",
         "title": "MariaDB",
         "data_text_base": "mariadb"
       },
       {
-        "image": "../img/logoMSSQL.png",
+        "image": "../img/logoMSSQL.svg",
         "title": "Microsoft SQL Server",
         "data_text_base": "mssql"
       }
@@ -103,12 +144,12 @@
         "data_text_base": "visual_studio_code"
       },
       {
-        "image": "../img/logoEclipse.png",
+        "image": "../img/logoEclipse.svg",
         "title": "Eclipse",
         "data_text_base": "eclipse"
       },
       {
-        "image": "../img/logoAndroidStudio.png",
+        "image": "../img/logoAndroidStudio.svg",
         "title": "Android Studio",
         "data_text_base": "android_studio"
       }
@@ -135,8 +176,23 @@
     ]
   },
   {
-    "sectionId": "skills-version-control-software",
+    "sectionId": "skills-devops",
     "components": [
+      {
+        "image": "../img/logoJenkins.svg",
+        "title": "Jenkins",
+        "data_text_base": "jenkins"
+      },
+      {
+        "image": "../img/logoGCloud.svg",
+        "title": "Google Cloud",
+        "data_text_base": "gcloud"
+      },
+      {
+        "image": "../img/logoAzureDevOps.svg",
+        "title": "Azure DevOps Server",
+        "data_text_base": "azure_devops_server"
+      },
       {
         "image": "../img/logoGitHub.png",
         "title": "GitHub",
@@ -146,11 +202,6 @@
         "image": "../img/logoGitLab.png",
         "title": "GitLab",
         "data_text_base": "gitlab"
-      },
-      {
-        "image": "../img/logoAzureDevOps.png",
-        "title": "Azure DevOps Server",
-        "data_text_base": "azure_devops_server"
       }
     ]
   },

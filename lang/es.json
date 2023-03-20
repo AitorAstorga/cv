@@ -68,11 +68,13 @@
     "sql_server_management_studio_b": "",
         
     "section-programming": "Lenguajes de Programación",
-    "section-markup": "Lenguajes de Marcado y Formatos de Datos",
+    "section-frontend": "Desarrollo Frontend",
+    "section-backend": "Desarrollo Backend",
+    "section-mobile": "Desarrollo de aplicaciones móviles",
     "section-dbengines": "Motores de Base de Datos",
     "section-ides": "Entornos de Desarrollo",
     "section-management": "Software de Gestión",
-    "section-control": "Software de Control de Versiones",
+    "section-devops": "Devops",
     "section-dbsoftware": "Software de Gestión de Bases de Datos",
 
     "main": "Página pricipal"
