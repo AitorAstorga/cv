@@ -36,8 +36,10 @@
     "vbnet_b": "Amplio conocimiento.",
     "python_b": "Conocimiento básico.",
     "assembly_b": "Conocimiento básico.",
-    "javascript_b": "Conocimiento básico.",
+    "javascript_b": "Conocimiento intermedio.",
+    "typescript_b": "Conocimiento intermedio.",
     
+    "angular_b": "",
     "bootstrap_b": "",
     "html_b": "",
     "css_b": "",
