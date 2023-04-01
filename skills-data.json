@@ -33,6 +33,11 @@
         "data_text_base": "javascript"
       },
       {
+        "image": "../img/logoTypescript.svg",
+        "title": "Typescript",
+        "data_text_base": "typescript"
+      },
+      {
         "image": "../img/logoPython.svg",
         "title": "Python",
         "data_text_base": "python"
@@ -43,6 +48,11 @@
   {
     "sectionId": "skills-frontend",
     "components": [
+      {
+        "image": "../img/logoAngular.svg",
+        "title": "Angular",
+        "data_text_base": "angular"
+      },
       {
         "image": "../img/logoBootstrap.svg",
         "title": "Bootstrap",
