@@ -36,8 +36,10 @@
     "vbnet_b": "Ezagutza zabala.",
     "python_b": "Oinarrizko Ezagutza.",
     "assembly_b": "Oinarrizko Ezagutza.",
-    "javascript_b": "Oinarrizko Ezagutza.",
+    "javascript_b": "Bitarteko Ezagutza.",
+    "typescript_b": "Bitarteko Knowledge",
     
+    "angular_b": "",
     "bootstrap_b": "",
     "html_b": "",
     "css_b": "",
