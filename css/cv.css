@@ -2,13 +2,13 @@
 /* Override default styles */
 :root {
   --bgPage: #18181b;
-  --teal: #006d85;
-  --lightTeal: #00b6d0;
+  --bgBody: #002736;
+  --bgNavbar: #004f59;
+
+  --accent: #00b6d0;
 
   --streamYellow: #ffa044;
   --streamYellow2: #ebac56;
-  --streamDarkestTeal: #002736;
-  --streamDarkTeal: #004f59;
 }
 
 :root * {
@@ -16,7 +16,7 @@
 }
 
 :root *::selection {
-  background-color: var(--teal);
+  background-color: var(--bgPrimary);
 }
 
 body {
@@ -69,7 +69,7 @@ ul {
   grid-area: top;
   padding: 0.5em!important;
   align-items: center;
-  background-color: var(--streamDarkTeal);
+  background-color: var(--bgNavbar);
 }
 
 .my-container {
@@ -125,7 +125,7 @@ ul {
 }
 
 .imgLi::marker {
-  color: var(--lightTeal);
+  color: var(--accent);
 }
 
 .imgDiv { 
@@ -143,7 +143,7 @@ ul {
   border-radius: 2px;
   padding: 1em;
   font-size: 1em;
-  background-color: var(--lightTeal);
+  background-color: var(--accent);
 }
 
 .langOption:hover, .langSelected {
@@ -156,14 +156,14 @@ ul {
 }
 
 #inspiration {
-  color: var(--lightTeal);
+  color: var(--accent);
 }
 
 .my-main {
   display: flex;
   flex-direction: column;
   padding: 2em;
-  background-color: var(--streamDarkestTeal);
+  background-color: var(--bgBody);
   grid-area: main;
 }
 
@@ -201,7 +201,7 @@ ul {
 .my-card a {
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.05);
-  color: var(--lightTeal);
+  color: var(--accent);
 }
 
 .my-card a:hover {
@@ -221,7 +221,7 @@ ul {
 }
 
 .progressBlock {
-  background-color: var(--lightTeal);
+  background-color: var(--accent);
 }
 
 .linkImg:hover {
