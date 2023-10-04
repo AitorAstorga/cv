@@ -30,13 +30,13 @@
     "additional_b1": "I practise fencing since 2010, and from 2017 to 2019 was a coach in the club CEGA. I currently hold a position as Secretary.",
     "additional_b2": "Since october 2020 I have the responsibility of presiding over the Alava Fencing Federation.",
     
-    "c_b": "Extensive knowledge.",
-    "csharp_b": "Extensive knowledge.",
-    "java_b": "Extensive knowledge.",
-    "vbnet_b": "Extensive knowledge.",
-    "python_b": "Basic Knowledge.",
-    "assembly_b": "Basic Knowledge.",
-    "javascript_b": "Intermediate Knowledge.",
+    "c_b": "Extensive knowledge",
+    "csharp_b": "Extensive knowledge",
+    "java_b": "Extensive knowledge",
+    "vbnet_b": "Extensive knowledge",
+    "python_b": "Basic Knowledge",
+    "assembly_b": "Basic Knowledge",
+    "javascript_b": "Intermediate Knowledge",
     "typescript_b": "Intermediate Knowledge",
     
     "angular_b": "",
@@ -85,7 +85,7 @@
     "section-dbengines": "Database Engines",
     "section-ides": "Development Enviroments",
     "section-management": "Management Software",
-    "section-devops": "Devops",
+    "section-devops": "DevOps",
     "section-dbsoftware": "Database Management Software",
 
     "main": "Main page"

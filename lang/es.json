@@ -30,14 +30,14 @@
     "additional_b1": "Practico esgrima desde 2010, y de 2017 a 2019 fui entrenador en el club CEGA. Actualmente ocupo el cargo de Secretario.",
     "additional_b2": "Desde octubre de 2020 tengo la responsabilidad de presidir la Federación Alavesa de Esgrima.",
     
-    "c_b": "Amplio conocimiento.",
-    "csharp_b": "Amplio conocimiento.",
-    "java_b": "Amplio conocimiento.",
-    "vbnet_b": "Amplio conocimiento.",
-    "python_b": "Conocimiento básico.",
-    "assembly_b": "Conocimiento básico.",
-    "javascript_b": "Conocimiento intermedio.",
-    "typescript_b": "Conocimiento intermedio.",
+    "c_b": "Amplio conocimiento",
+    "csharp_b": "Amplio conocimiento",
+    "java_b": "Amplio conocimiento",
+    "vbnet_b": "Amplio conocimiento",
+    "python_b": "Conocimiento básico",
+    "assembly_b": "Conocimiento básico",
+    "javascript_b": "Conocimiento intermedio",
+    "typescript_b": "Conocimiento intermedio",
     
     "angular_b": "",
     "bootstrap_b": "",
@@ -85,7 +85,7 @@
     "section-dbengines": "Motores de Base de Datos",
     "section-ides": "Entornos de Desarrollo",
     "section-management": "Software de Gestión",
-    "section-devops": "Devops",
+    "section-devops": "DevOps",
     "section-dbsoftware": "Software de Gestión de Bases de Datos",
 
     "main": "Página pricipal"

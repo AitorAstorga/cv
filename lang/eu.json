@@ -20,7 +20,7 @@
     "mail_t": "Helbide Elektronikoa",
     
     "experience_t": "Esperientzia",
-    "experience_1_title": "Applikazio Garatzailea",
+    "experience_1_title": "Aplikazio Garatzailea",
     "experience_1_company": "AEG Power Solutions",
     "experience_1_b": "ots. 2022 - gaur egun",
     
@@ -30,13 +30,13 @@
     "additional_b1": "Eskrima praktikatzen dut 2010etik, eta 2017tik 2019ra entrenatzaile izan nintzen CEGA klubean. Gaur egun, idazkari kargua daukat.",
     "additional_b2": "2020ko urritik Arabako Eskrima Federazioaren buru naiz.",
     
-    "c_b": "Ezagutza zabala.",
-    "csharp_b": "Ezagutza zabala.",
-    "java_b": "Ezagutza zabala.",
-    "vbnet_b": "Ezagutza zabala.",
-    "python_b": "Oinarrizko Ezagutza.",
-    "assembly_b": "Oinarrizko Ezagutza.",
-    "javascript_b": "Bitarteko Ezagutza.",
+    "c_b": "Ezagutza zabala",
+    "csharp_b": "Ezagutza zabala",
+    "java_b": "Ezagutza zabala",
+    "vbnet_b": "Ezagutza zabala",
+    "python_b": "Oinarrizko Ezagutza",
+    "assembly_b": "Oinarrizko Ezagutza",
+    "javascript_b": "Bitarteko Ezagutza",
     "typescript_b": "Bitarteko Knowledge",
     
     "angular_b": "",
@@ -85,7 +85,7 @@
     "section-dbengines": "Datu-base Motorrak",
     "section-ides": "Garapen-inguruneak",
     "section-management": "Kudeaketa Softwarea",
-    "section-devops": "Devops",
+    "section-devops": "DevOps",
     "section-dbsoftware": "Datu-baseak Kudeatzeko Softwarea",
 
     "main": "Main page"
