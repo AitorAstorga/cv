@@ -1,7 +1,7 @@
-function openMain() {
-    window.location.href = 'https://aitorastorga.github.io/cv/html/cv.html';
+function openMain(language) {
+    window.location.href = '../html/cv.html';
 }
 
-function openSkills() {
-    window.location.href = 'https://aitorastorga.github.io/cv/html/skills.html';
+function openSkills(language) {
+    window.location.href = '../html/skills.html';
 }

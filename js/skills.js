@@ -25,7 +25,7 @@ window.addEventListener("load", () => {
     const containers = document.querySelectorAll(".component-container");
 
     // Load the text for the selected language
-    fetch("https://aitorastorga.github.io/cv/skills-data.json")
+    fetch("../skills-data.json")
         .then((response) => response.json())
         .then((data) => {
             // Loop over all the sections

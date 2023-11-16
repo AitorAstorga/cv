@@ -1,23 +1,24 @@
 {
     "basque": "Euskera (Euskara)",
     "spanish": "Español",
-    "english": "Ingles (English)",
+    "english": "Inglés (English)",
     
     "inspiration": "Paleta de colores inspirada por: @WilburSoot",
 
     "name": "Aitor Astorga Saez de Vicuña",
     "degree": "Grado en Ingenieria Informática",
+    "master": "Estudiante de Máster en Ciberseguridad y Privacidad",
 
     "goals_t": "Objetivos",
-    "goals_b": "Trabajar en un entorno orientado a TI para mejorar aún más mis conocimientos y crecer personalmente. Encontrar un equipo de desarrollo entusiasta listo para trabajar en un proyecto conjunto. Deseo posicionarme en un lugar que me ayude a realizar un seguimiento de las tecnologías en constante cambio de este mundo.",
+    "goals_b": "Trabajar en un entorno orientado a TI donde pueda aplicar y expandir mis habilidades en desarrollo de software. Busco colaborar en un equipo que valore la innovación, contribuyendo a proyectos desafiantes que requieran adaptación y aprendizaje continuo. Mi meta es desarrollar soluciones tecnológicas eficientes, manteniéndome al día con las tendencias emergentes y evolucionando profesionalmente. Tengo un especial aprecio por el desarrollo open source y valoro la colaboración y el intercambio de conocimientos que caracteriza a esta comunidad.",
 
     "languages_t": "Idiomas",
 
     "contact_t": "Información de Contacto",
-    "address_t": "Dirección",
-    "address_b": "Reyes Católicos 10, 5ºD, Vitoria-Gasteiz 01002",
+    "address_t": "Ubicación",
+    "address_b": "Vitoria-Gasteiz / Bilbao",
     "number_t": "Número",
-    "mail_t": "Correo Electrónico",
+    "mail_t": "Email",
     
     "experience_t": "Experiencia",
     "experience_1_title": "Desarrollador de aplicaciones",
@@ -29,6 +30,7 @@
     "additional_t": "Información Adicional",
     "additional_b1": "Practico esgrima desde 2010, y de 2017 a 2019 fui entrenador en el club CEGA. Actualmente ocupo el cargo de Secretario.",
     "additional_b2": "Desde octubre de 2020 tengo la responsabilidad de presidir la Federación Alavesa de Esgrima.",
+    "additional_b3": "Mi SO actual es Garuda Linux, y he utilizado FreeBSD, Manjaro, Ubuntu, Debian y Windows XP hasta Windows 10.",
     
     "c_b": "Amplio conocimiento",
     "csharp_b": "Amplio conocimiento",
@@ -38,6 +40,7 @@
     "assembly_b": "Conocimiento básico",
     "javascript_b": "Conocimiento intermedio",
     "typescript_b": "Conocimiento intermedio",
+    "rust_b": "Conocimiento básico",
     
     "angular_b": "",
     "bootstrap_b": "",

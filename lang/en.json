@@ -7,15 +7,16 @@
 
     "name": "Aitor Astorga Saez de Vicuña",
     "degree": "Graduate in Computer Engineering",
+    "master": "Master's Student in Cybersecurity and Privacy",
 
     "goals_t": "Goals",
-    "goals_b": "Work in a IT oriented environment to further improve my knowledge and grow personally. Find an enthusiastic development team ready to work in a joint project. I wish to position myself in a place that helps me keep track of the ever-changing technologies of this world.",
+    "goals_b": "Seeking a role in an IT-oriented environment where I can apply and expand my software development skills. I am looking to collaborate in a team that values innovation, contributing to challenging projects that require continuous adaptation and learning. My goal is to develop efficient technological solutions, staying abreast of emerging trends and evolving professionally. I have a special appreciation for open-source development and value the collaboration and knowledge sharing that characterizes this community.",
 
     "languages_t": "Languages",
 
     "contact_t": "Contact Information",
-    "address_t": "Address",
-    "address_b": "Reyes Católicos 10, 5ºD, Vitoria-Gasteiz 01002",
+    "address_t": "Location",
+    "address_b": "Vitoria-Gasteiz / Bilbao",
     "number_t": "Number",
     "mail_t": "Mail",
     
@@ -29,6 +30,7 @@
     "additional_t": "Additional Information",
     "additional_b1": "I practise fencing since 2010, and from 2017 to 2019 was a coach in the club CEGA. I currently hold a position as Secretary.",
     "additional_b2": "Since october 2020 I have the responsibility of presiding over the Alava Fencing Federation.",
+    "additional_b3": "My current OS is Garuda Linux, and I have used FreeBSD, Manjaro, Ubuntu, Debian and Windows XP to Windows 10.",
     
     "c_b": "Extensive knowledge",
     "csharp_b": "Extensive knowledge",
@@ -38,6 +40,7 @@
     "assembly_b": "Basic Knowledge",
     "javascript_b": "Intermediate Knowledge",
     "typescript_b": "Intermediate Knowledge",
+    "rust_b": "Basic Knowledge",
     
     "angular_b": "",
     "bootstrap_b": "",

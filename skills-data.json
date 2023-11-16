@@ -41,7 +41,13 @@
         "image": "../img/logoPython.svg",
         "title": "Python",
         "data_text_base": "python"
+      },
+      {
+        "image": "../img/logoRust.svg",
+        "title": "Rust",
+        "data_text_base": "rust"
       }
+      
       
     ]
   },

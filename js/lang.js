@@ -2,7 +2,7 @@ function updateText(language) {
     // Update the selected language in localStorage
     localStorage.setItem('language', language);
 
-    var url = 'https://aitorastorga.github.io/cv/lang/' + language + '.json';
+    var url = '../lang/' + language + '.json';
 
     // Load the text for the selected language
     fetch(url)
@@ -25,7 +25,9 @@ function updateText(language) {
 
 // Call the updateText function when the page loads
 $(document).ready(function () {
-    updateText('en');
+    // Get the language from localStorage, or fall back to English
+    var language = localStorage.getItem('language') || 'en';
+    updateText(language);
 });
 
 function updateSelectedLanguageButton(language) {

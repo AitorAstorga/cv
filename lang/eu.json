@@ -7,17 +7,18 @@
 
     "name": "Aitor Astorga Saez de Vicuña",
     "degree": "Informatikako Ingeriaritzako Gradua",
+    "master": "Cibersegurtasun eta Pribatutasuneko Masterra ikaslea",
 
     "goals_t": "Helburuak",
-    "goals_b": "Informatikari zuzendutako ingurune batean lan egin nire ezagutzak hobetzeko eta pertsonalki hazteko. Aurkitu garapen talde gogotsu bat proiektu bateratu batean lan egiteko prest. Nire burua etengabe aldatzen diren mundu honetako teknologien inguruan jarraipena egiten laguntzen didan leku batean kokatu nahi dut.",
+    "goals_b": "Nire software garapeneko trebetasunak aplikatu eta hedatu ahal izango dudan TI bideratutako ingurune batean lan egin. Berrikuntza baloratzen duen talde batean lankidetzan aritzeko asmoa dut, etengabeko egokitzapena eta ikaskuntza eskatzen dituzten erronka handiko proiektuetan lagunduz. Teknologia-irtenbide efizienteak garatu nahi ditut, joera berriekin eguneratuta mantenduz eta profesional gisa hobetuz. Open source garapena eta komunitate honetan ezaugarritzen den lankidetza eta ezagutzen trukea bereziki baloratzen ditut.",
 
     "languages_t": "Hizkuntzak",
 
     "contact_t": "Harremanetarako informazioa",
-    "address_t": "Helbidea",
-    "address_b": "Errege Katolikoak 10, 5ºD, Vitoria-Gasteiz 01002",
+    "address_t": "Kokapena",
+    "address_b": "Vitoria-Gasteiz / Bilbo",
     "number_t": "Zenbakia",
-    "mail_t": "Helbide Elektronikoa",
+    "mail_t": "E-posta",
     
     "experience_t": "Esperientzia",
     "experience_1_title": "Aplikazio Garatzailea",
@@ -29,6 +30,7 @@
     "additional_t": "Informazio Gehigarria",
     "additional_b1": "Eskrima praktikatzen dut 2010etik, eta 2017tik 2019ra entrenatzaile izan nintzen CEGA klubean. Gaur egun, idazkari kargua daukat.",
     "additional_b2": "2020ko urritik Arabako Eskrima Federazioaren buru naiz.",
+    "additional_b3": "Nire SE Garuda Linux da, eta FreeBSD, Manjaro, Ubuntu, Debian eta Windows XP-tik Windows 10-ra erabili ditut.",
     
     "c_b": "Ezagutza zabala",
     "csharp_b": "Ezagutza zabala",
@@ -38,6 +40,7 @@
     "assembly_b": "Oinarrizko Ezagutza",
     "javascript_b": "Bitarteko Ezagutza",
     "typescript_b": "Bitarteko Knowledge",
+    "rust_b": "Oinarrizko Ezagutza",
     
     "angular_b": "",
     "bootstrap_b": "",
