@@ -89,6 +89,7 @@ p {
 }
 
 .my-nav-right {
+  margin-left: auto;
   flex-grow: 1;
   align-self: center;
   align-items: center;
@@ -213,6 +214,7 @@ p {
 
 .my-header-logos {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0)!important;
@@ -318,6 +320,7 @@ p {
 
   .my-header-logos {
     margin-left: auto;
+    flex-direction: row;
   }
 
   .imgLi {
@@ -412,8 +415,6 @@ p {
   .row > * {
     width: auto!important;
   }
-
-
 
   #goals {
     grid-row: 1;
