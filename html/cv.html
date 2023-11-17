@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <script src="../js/jquery-3.6.0.min.js"></script>
   <script src="../js/lang.js"></script>
@@ -34,7 +35,11 @@
       <img class="my-flag" src="../img/englishFlag.png" alt="English flag">
       <p data-text="english"></p>
     </button>
-    <p id="inspiration" data-text="inspiration"></p>
+    <div class="my-nav-right">
+      <span class="material-symbols-outlined" onclick="print()">print</span>
+      <p id="inspiration" data-text="inspiration"></p>
+    </div>
+
   </nav>
 
   <div class="my-main">
@@ -46,7 +51,7 @@
       </div>
       <div class="my-header-logos">
         <img class="mu" src="../img/Logo ENG_Horizontala_Txuria.png" alt="MU logo">
-        <img class="mu" src="../img/Logo-uoc-white.png" alt="MU logo">
+        <img class="mu" src="../img/Logo-uoc-white.png" alt="UOC logo">
       </div>
     </header>
 
@@ -146,7 +151,7 @@
         </div>
       </div>
       <div class="my-card" id="competences">
-        <button class="my-button langOption undecoratedLink" onclick="openSkills()">
+        <button class="my-button langOption undecoratedLink" id="competences-button" onclick="openSkills()">
           <h3 data-text="skills" class="my-color-black">Skills</h3>
         </button>
         <div class="my-skills">

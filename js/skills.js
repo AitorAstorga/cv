@@ -21,9 +21,6 @@ function createComponent(image, title, text, data_text_base) {
 }
 
 window.addEventListener("load", () => {
-    // Get all the containers
-    const containers = document.querySelectorAll(".component-container");
-
     // Load the text for the selected language
     fetch("../skills-data.json")
         .then((response) => response.json())
@@ -47,7 +44,7 @@ window.addEventListener("load", () => {
             });
             
             // Get the language from localStorage, or fall back to English
-            var language = localStorage.getItem('language') || 'en';
+            let language = localStorage.getItem('language') || 'en';
             updateText(language);
         })
         .catch((error) => console.error(error));

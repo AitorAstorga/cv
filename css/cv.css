@@ -60,6 +60,22 @@ p {
   text-align: justify;
 }
 
+.material-symbols-outlined {
+  color: var(--streamYellow);
+  
+  justify-self: center;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined:hover {
+  cursor: pointer;
+  font-size: xx-large;
+}
+
 /* Custom styles (mobile-first) */
 .my-nav {
   display: flex;
@@ -70,6 +86,17 @@ p {
   padding: 0.5em!important;
   align-items: center;
   background-color: var(--bgNavbar);
+}
+
+.my-nav-right {
+  flex-grow: 1;
+  align-self: center;
+  align-items: center;
+  justify-content: end;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  width: auto;
 }
 
 .my-container {
@@ -185,8 +212,9 @@ p {
 }
 
 .my-header-logos {
-  align-self: center;
-  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0)!important;
 }
 
@@ -284,10 +312,17 @@ p {
     flex-direction: row;
   }
 
+  .my-nav-right {
+    flex-direction: row;
+  }
+
+  .my-header-logos {
+    margin-left: auto;
+  }
+
   .imgLi {
     list-style-type: disc;
   }
-  
   
   .langOption {
     display: flex;
@@ -295,7 +330,7 @@ p {
   }
 
   #inspiration {
-    margin-left: auto;
+    margin-left: 0.5em;
   }
 
   #goals {
@@ -328,4 +363,86 @@ p {
     grid-column: 4/6!important;
   }
 
+}
+
+@media print {
+  .my-nav {
+    display: none;
+  }
+
+  body{
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust:exact !important;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1rem;
+  }
+  
+  h3 {
+    font-size: large;
+  }
+
+  .my-header-texts {
+    text-align: center;
+  }
+
+  .my-logo {
+    height: 1.5em;
+    width: 1.5em;
+  }
+  
+  .my-logo-big {
+    height: 2.5em;
+    width: 2.5em;
+  }
+
+  .my-card {
+    font-size: medium;
+  }
+  
+  .mu {
+    height: 3em;
+  }
+
+  .row > * {
+    width: auto!important;
+  }
+
+
+
+  #goals {
+    grid-row: 1;
+    grid-column: 1/4!important;
+  }
+  
+  #languages {
+    grid-row: 1;
+    grid-column: 4/6!important;
+  }
+  
+  #contact {
+    grid-row: 2;
+    grid-column: 1/4!important;
+  }
+  
+  #competences {
+    grid-row: 2;
+    grid-column: 4/6!important;
+  }
+
+  #experience {
+    grid-row: 3;
+    grid-column: 1/2!important;
+  }
+
+  #other {
+    grid-row: 3;
+    grid-column: 2/6!important;
+  }
+  
 }
