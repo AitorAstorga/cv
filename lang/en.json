@@ -3,7 +3,7 @@
     "spanish": "Spanish (Español)",
     "english": "English",
     
-    "inspiration": "Color palette inspired by: @WilburSoot",
+    "inspiration": "Color palette inspired by: NyakoTech",
 
     "name": "Aitor Astorga Saez de Vicuña",
     "degree": "Graduate in Computer Engineering (MU)",
@@ -18,7 +18,7 @@
     "contact_t": "Contact Information",
     "address_t": "Location",
     "address_b": "Vitoria-Gasteiz / Bilbao",
-    "number_t": "Number",
+    "telegram_t": "Telegram",
     "mail_t": "Mail",
     
     "experience_t": "Experience",
@@ -31,7 +31,7 @@
     "additional_t": "Additional Information",
     "additional_b1": "I practise fencing since 2010, and from 2017 to 2019 was a coach in the club CEGA. I currently hold a position as Secretary.",
     "additional_b2": "Since october 2020 I have the responsibility of presiding over the Alava Fencing Federation.",
-    "additional_b3": "My current OS is Garuda Linux, and I have used FreeBSD, Manjaro, Ubuntu, Debian and Windows XP to Windows 10.",
+    "additional_b3": "My current OS are Garuda Linux and Open Media Vault. I have used FreeBSD, Manjaro, Ubuntu, Debian and Windows XP to Windows 10.",
     
     "c_b": "Extensive knowledge",
     "csharp_b": "Extensive knowledge",

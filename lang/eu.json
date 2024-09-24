@@ -3,7 +3,7 @@
     "spanish": "Spanish (Español)",
     "english": "Ingelesa (English)",
     
-    "inspiration": "Kolore paleta @WilburSoot-k inspiratua",
+    "inspiration": "Kolore paleta NyakoTech inspiratua",
 
     "name": "Aitor Astorga Saez de Vicuña",
     "degree": "Informatikako Ingeriaritzako Gradua (MU)",
@@ -18,7 +18,7 @@
     "contact_t": "Harremanetarako informazioa",
     "address_t": "Kokapena",
     "address_b": "Vitoria-Gasteiz / Bilbo",
-    "number_t": "Zenbakia",
+    "telegram_t": "Telegram",
     "mail_t": "E-posta",
     
     "experience_t": "Esperientzia",
@@ -31,7 +31,7 @@
     "additional_t": "Informazio Gehigarria",
     "additional_b1": "Eskrima praktikatzen dut 2010etik, eta 2017tik 2019ra entrenatzaile izan nintzen CEGA klubean. Gaur egun, idazkari kargua daukat.",
     "additional_b2": "2020ko urritik Arabako Eskrima Federazioaren buru naiz.",
-    "additional_b3": "Nire SE Garuda Linux da, eta FreeBSD, Manjaro, Ubuntu, Debian eta Windows XP-tik Windows 10-ra erabili ditut.",
+    "additional_b3": "Nire SE-ak Garuda Linux eta Open Media Vault dira. FreeBSD, Manjaro, Ubuntu, Debian eta Windows XP-tik Windows 10-ra erabili ditut.",
     
     "c_b": "Ezagutza zabala",
     "csharp_b": "Ezagutza zabala",

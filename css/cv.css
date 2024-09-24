@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
-/* Override default styles */
 :root {
-  --bgPage: #18181b;
-  --bgBody: #002736;
-  --bgNavbar: #004f59;
+  /* Background Colors */
+  --background-page: #000000; /* General background */
+  --background-body: #18181b; /* Body background */
+  --background-navbar: #64094d; /* Navbar background */
 
-  --accent: #00b6d0;
+  /* Accent Colors */
+  --accent-primary: #DC26B6;
+  --accent-secondary: #C323B8;
+  --accent-link: #DC26B6;
+  --accent-bullet: #DC26B6;
+  --accent-progress: #DC26B6;
 
-  --streamYellow: #ffa044;
-  --streamYellow2: #ebac56;
+  /* Hover Colors */
+  --hover-primary: #C323B8;
+  --hover-secondary: #C323B8;
+  --hover-link: #FFFFFF;
+  --hover-bullet: #C323B8;
+  --hover-progress: #C323B8;
 }
 
 :root * {
@@ -24,7 +34,7 @@ body {
   padding: 8px!important;
   box-sizing: border-box;
   line-height: normal;
-  background-color: var(--bgPage);
+  background-color: var(--background-page);
 }
 
 h1 {
@@ -61,7 +71,7 @@ p {
 }
 
 .material-symbols-outlined {
-  color: var(--streamYellow);
+  color: var(--hover-primary);
   
   justify-self: center;
   font-variation-settings:
@@ -85,7 +95,7 @@ p {
   grid-area: top;
   padding: 0.5em!important;
   align-items: center;
-  background-color: var(--bgNavbar);
+  background-color: var(--background-navbar);
 }
 
 .my-nav-right {
@@ -155,7 +165,7 @@ p {
 }
 
 .imgLi::marker {
-  color: var(--accent);
+  color: var(--accent-bullet);
 }
 
 .imgDiv { 
@@ -164,7 +174,7 @@ p {
   gap: 0.5em;
 }
 
-.langOption {
+.button {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -173,11 +183,11 @@ p {
   border-radius: 2px;
   padding: 1em;
   font-size: 1em;
-  background-color: var(--accent);
+  background-color: var(--accent-primary);
 }
 
-.langOption:hover, .langSelected {
-  background-color: var(--streamYellow);
+.button:hover, .langSelected {
+  background-color: var(--hover-primary);
 }
 
 .undecoratedLink {
@@ -186,14 +196,14 @@ p {
 }
 
 #inspiration {
-  color: var(--accent);
+  color: var(--accent-primary);
 }
 
 .my-main {
   display: flex;
   flex-direction: column;
   padding: 2em;
-  background-color: var(--bgBody);
+  background-color: var(--background-body);
   grid-area: main;
 }
 
@@ -239,17 +249,17 @@ p {
 }
 
 .my-card:hover {
-  box-shadow: 0px 0px 5px 1px var(--streamYellow);
+  box-shadow: 0px 0px 5px 1px var(--hover-primary);
 }
 
 .my-card a {
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.05);
-  color: var(--accent);
+  color: var(--accent-link);
 }
 
 .my-card a:hover {
-  background-color: var(--streamYellow2);
+  background-color: var(--hover-link);
   color: black;
 }
 
@@ -265,15 +275,15 @@ p {
 }
 
 .progressBlock {
-  background-color: var(--accent);
+  background-color: var(--accent-progress);
 }
 
 .linkImg:hover {
   height: 2.1em;
   width: 2.1em;
-  background-color: var(--streamYellow)!important;
-  border: 2px solid var(--streamYellow);
-  box-shadow: 0px 0px 5px 1px var(--streamYellow);
+  background-color: var(--hover-primary)!important;
+  border: 2px solid var(--hover-primary);
+  box-shadow: 0px 0px 5px 1px var(--hover-primary);
 }
 
 /* Show the skills in two columns */
@@ -327,7 +337,7 @@ p {
     list-style-type: disc;
   }
   
-  .langOption {
+  .button {
     display: flex;
     width: auto;
   }
