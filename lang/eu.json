@@ -17,14 +17,17 @@
 
     "contact_t": "Harremanetarako informazioa",
     "address_t": "Kokapena",
-    "address_b": "Vitoria-Gasteiz / Bilbo",
-    "telegram_t": "Telegram",
+    "address_b": "Bilbo (urrutiko / hibridoa)",
     "mail_t": "E-posta",
     
     "experience_t": "Esperientzia",
     "experience_1_title": "Aplikazio Garatzailea",
     "experience_1_company": "AEG Power Solutions",
     "experience_1_b": "ots. 2022 - gaur egun",
+
+    "experience_2_title": "Katua Kudeatzeko Buruzagi Nagusia",
+    "experience_2_company": "Blue, Etxeko Jaun eta Katu Gorena",
+    "experience_2_b": "abu. 2022 - gaur egun",
     
     "skills": "Gaitasunak",
 

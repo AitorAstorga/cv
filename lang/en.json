@@ -17,14 +17,17 @@
 
     "contact_t": "Contact Information",
     "address_t": "Location",
-    "address_b": "Vitoria-Gasteiz / Bilbao",
-    "telegram_t": "Telegram",
+    "address_b": "Bilbao (remote / hybrid)",
     "mail_t": "Mail",
     
     "experience_t": "Experience",
     "experience_1_title": "Application Developer",
     "experience_1_company": "AEG Power Solutions",
     "experience_1_b": "feb. 2022 - present",
+
+    "experience_2_title": "Chief Specialist in Feline Affairs",
+    "experience_2_company": "Blue, Supreme Cat and House Master",
+    "experience_2_b": "aug. 2022 - present",
     
     "skills": "Skills",
 

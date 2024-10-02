@@ -17,8 +17,7 @@
 
     "contact_t": "Información de Contacto",
     "address_t": "Ubicación",
-    "address_b": "Vitoria-Gasteiz / Bilbao",
-    "telegram_t": "Telegram",
+    "address_b": "Bilbao (remoto / híbrido)",
     "mail_t": "Email",
     
     "experience_t": "Experiencia",
@@ -26,6 +25,10 @@
     "experience_1_company": "AEG Power Solutions",
     "experience_1_b": "feb. 2022 - actualidad",
     
+    "experience_2_title": "Director Ejecutivo de Mimos y Ronroneos",
+    "experience_2_company": "Blue, Señor de la Casa",
+    "experience_2_b": "ago. 2022 - actualidad",
+
     "skills": "Competencias",
 
     "additional_t": "Información Adicional",
