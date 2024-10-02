@@ -1,0 +1,30 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    # Log in to the Container registry
+    - name: Log in to the Container registry
+      run: echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+    # Build the Docker image
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag aichan-cv:latest --tag ghcr.io/aitorastorga/aichan-cv:latest
+
+    # Push the Docker image to GHCR
+    - name: Push Docker images to GHCR
+      run: |
+        # Push the main app image
+        docker push ghcr.io/aitorastorga/aichan-cv:latest
